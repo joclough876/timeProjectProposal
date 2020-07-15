@@ -1,0 +1,44 @@
+html{
+	font-family: tw cen mt, sans-serif;
+}
+body{
+	margin: 0;
+}
+hgroup, h4{
+	background: #002855;
+	height: 250px;
+	color: white;
+}
+h3{
+	text-align: center;
+	color: white;
+	line-height: 100px;
+	margin: 0;
+}
+
+article {
+	padding: 10px;
+	margin:10px;
+	background: #a2aaad;
+	flex: 200px;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+}
+header{
+	background: #002845;
+	border-bottom: solid #FF0000;
+	padding: 0;
+}
+
+figure{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+figcaption{
+	color: white;
+	text-align:center;
+}
