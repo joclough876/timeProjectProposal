@@ -10,13 +10,20 @@ hgroup, h4{
 	color: white;
 }
 h3{
-	text-align: center;
+	text-align: left;
 	color: white;
 	line-height: 100px;
 	margin: 0;
 }
 
-article {
+.flex1 {
+	padding: 10px;
+	margin:10px;
+	background: #002845;
+	color: white;
+	flex: 200px;
+}
+.flex2 {
 	padding: 10px;
 	margin:10px;
 	background: #a2aaad;
@@ -37,8 +44,44 @@ figure{
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+	border-radius: 10px;
 }
 figcaption{
 	color: white;
 	text-align:center;
+}
+
+h1{
+	color: white;
+	text-align: right-center;
+}
+
+.a{
+	display:block;
+	margin-left: auto;
+	margin-right:auto;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 150px;
+}
+
+.row{
+	display:flex;
+	flex-wrap: flex;
+}
+
+.column{
+
+	padding: 10%;
+	flex: 200px;
+	width: 25%;	
+}
+
+footer{
+	margin: 10px;
+	flex-wrap: wrap;
+	color: white;
+	text-align: right-center;
+	background: #FF0000;
 }
