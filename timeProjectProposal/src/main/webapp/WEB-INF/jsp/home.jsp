@@ -81,22 +81,22 @@
  
 <footer>SPARC is a product of IAS and was created by Brian, Jamie and Christine.
 In order to complete this full stack development I will need Christine's approval and Brian's assistance.
-Brian is apart of the IAS Modernization project which has direct impact to my access to a SQL Server. 
+Brian is apart of the IAS Modernization project which has direct impact on my access to a SQL Server. 
 </footer>
 
 <div>
 
-<button onclick ="document.getElementById('myImage').src=
-	'img/sparc clear image.png'">
+<button type="button" onclick="sparcOn()">
 	Turn on the SPARC</button>
-	
+
+<script src="js/home.js"></script>	
+
 <img id="myImage"
 src="img/sparc clear image (2).png">
 
 
 
-<button onclick ="document.getElementById('myImage').src=
-	'img/sparc clear image (2).png'">
+<button type="button" onclick="sparcOff()">
 	Turn off the SPARC</button>
 
 
