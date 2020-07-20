@@ -43,7 +43,11 @@
 	<div class="flex2">
 		
 		<figure>
-		<img class="a" id = "Python logo" src="img/Python_logo.jpg" href="localhost:8181/python"/>
+		<a target="_blank" href="https://en.wikipedia.org/wiki/Python_%28programming_language%29">
+		
+		<img class="a" id = "Python logo" 
+		src="img/Python_logo.jpg" href="https://en.wikipedia.org/wiki/Python_%28programming_language%29"/>
+		</a>
 		<figcaption>Python</figcaption>
 		<!--  a href="localhost:8181/python"> Python</a></figcaption-->
 		</figure>
@@ -55,7 +59,9 @@
 
 	<div class="flex2">
  		<figure>
+ 		<a target="_blank" href="https://en.wikipedia.org/wiki/User_interface">
  		<img class="a" id ="userinterface" src="img/Userinterface.jpg">
+ 		</a>
  		<figcaption>UI</figcaption>
  		</figure>
  		<li>Create a UserInterface that users want to use.</li>
@@ -67,7 +73,9 @@
 	
 	<div class="flex2">
  		<figure>
+ 		<a target="_blank" href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server">
  		<img class="a" id="sql" src="img/sql server_logo.jpg"></a>
+ 		</a>
  		<figcaption>SQL</figcaption>
  		</figure>
  		<li>Data currently housed in an Access Database.</li>
@@ -84,23 +92,28 @@ In order to complete this full stack development I will need Christine's approva
 Brian is apart of the IAS Modernization project which has direct impact on my access to a SQL Server. 
 </footer>
 
+<section class="flex2">
+
+<script src="js/home.js"></script>	
+
+<div><h3>Try turning on the SPARC!</h3></div>
+
 <div>
 
 <button type="button" onclick="sparcOn()">
 	Turn on the SPARC</button>
 
-<script src="js/home.js"></script>	
-
-<img id="myImage"
-src="img/sparc clear image (2).png">
-
-
-
 <button type="button" onclick="sparcOff()">
 	Turn off the SPARC</button>
-
-
 </div>
+<div>
+<figure>
+<img id="myImage"
+src="img/sparc clear image (2).png">
+</figure>
+</div>
+
+</section>
 </body>
 </html>
 <!--http://localhost:8080/home-->
